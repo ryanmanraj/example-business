@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #e5e7eb;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+.header, 
+.one, 
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+    margin-bottom: -16px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px 0px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 128px;
+    gap: 5%;
+}
+
+.left {
+    flex: 1;
+}
+
+.left h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.main-image {
+    min-width: 50%;
+    min-height: 200px;
+    flex: 1;
+    border: 2px solid red;
+}
+
+.two {
+    padding: 64px 192px;
+}
+
+.two h2 {
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0px 0px 64px 0px;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 32px;
+}
+
+.content > img {
+    min-width: 100px;
+    min-height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    flex: 1 1 auto;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 64px 192px;
+    gap: 16px;
+}
+
+.three > p {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 124px;
+}
+
+.container-four {
+    flex: 1;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-four > .left {
+    color: white;
+}
+
+.container-four h3, p {
+    margin: 0px;
+}
+
+.b2 {
+    border: 4px solid white;
+}
+
+.footer > p {
+    text-align: center;
+    margin: 0px;
+    padding: 16px 128px;
+}
